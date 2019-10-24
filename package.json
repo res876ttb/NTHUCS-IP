@@ -1,0 +1,44 @@
+{
+  "name": "NTHUCS-IP",
+  "version": "0.1.0",
+  "description": "IP usage overview of NTHUCS",
+  "main": "main.js",
+  "repository": "https://github.com/res876ttb/NTHUCS_IP.git",
+  "author": "res876ttb <someone10851222@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "watch": "webpack -w",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.5.1",
+    "bootstrap": "^4.3.1",
+    "react": "^16.11.0",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-addons-transition-group": "^15.6.2",
+    "react-color": "^2.17.3",
+    "react-dom": "^16.11.0",
+    "react-perfect-scrollbar": "^1.5.3",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/plugin-transform-regenerator": "^7.4.5",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
